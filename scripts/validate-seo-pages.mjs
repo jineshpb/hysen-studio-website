@@ -7,6 +7,15 @@ const data = JSON.parse(raw);
 
 const requiredTop = ["type", "slug", "keyword", "meta", "hero", "ctaBand", "capabilities", "services", "finalCta"];
 const allowedTypes = new Set(["services", "use-cases", "locations"]);
+const layoutKeys = [
+  "showHero",
+  "showCtaBand",
+  "showCapabilities",
+  "showServices",
+  "showTestimonials",
+  "showTeam",
+  "showFinalCta",
+];
 
 const errors = [];
 const seen = new Set();
@@ -36,6 +45,21 @@ if (!Array.isArray(data)) {
 
     if (!item.meta || !hasText(item.meta.title) || !hasText(item.meta.description)) {
       errors.push(`[${idx}] meta.title/meta.description required`);
+    }
+
+    if (item.layout !== undefined) {
+      if (typeof item.layout !== "object" || item.layout === null || Array.isArray(item.layout)) {
+        errors.push(`[${idx}] layout must be an object when provided`);
+      } else {
+        Object.entries(item.layout).forEach(([key, value]) => {
+          if (!layoutKeys.includes(key)) {
+            errors.push(`[${idx}] layout.${key} is not a supported toggle`);
+          }
+          if (typeof value !== "boolean") {
+            errors.push(`[${idx}] layout.${key} must be boolean`);
+          }
+        });
+      }
     }
 
     const hero = item.hero || {};

@@ -8,6 +8,16 @@ export type SeoCapability = {
   imageSrc?: string;
 };
 
+export type SeoPageLayout = {
+  showHero?: boolean;
+  showCtaBand?: boolean;
+  showCapabilities?: boolean;
+  showServices?: boolean;
+  showTestimonials?: boolean;
+  showTeam?: boolean;
+  showFinalCta?: boolean;
+};
+
 export type SeoPageContent = {
   type: RouteType;
   slug: string;
@@ -16,6 +26,7 @@ export type SeoPageContent = {
     title: string;
     description: string;
   };
+  layout?: SeoPageLayout;
   hero: {
     heading: string;
     subheading: string;
@@ -46,7 +57,20 @@ export type SeoPageContent = {
   };
 };
 
-export const SEO_PAGES: SeoPageContent[] = seoPagesRaw as SeoPageContent[];
+const DEFAULT_LAYOUT: Required<SeoPageLayout> = {
+  showHero: true,
+  showCtaBand: true,
+  showCapabilities: true,
+  showServices: true,
+  showTestimonials: true,
+  showTeam: true,
+  showFinalCta: true,
+};
+
+export const SEO_PAGES: SeoPageContent[] = (seoPagesRaw as SeoPageContent[]).map((page) => ({
+  ...page,
+  layout: { ...DEFAULT_LAYOUT, ...page.layout },
+}));
 
 export function getSeoPage(type: RouteType, slug: string) {
   return SEO_PAGES.find((page) => page.type === type && page.slug === slug);

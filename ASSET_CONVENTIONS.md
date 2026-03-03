@@ -44,6 +44,15 @@ A dynamic page should be renderable with data only:
 - `services` (heading, points[], CTA)
 - `finalCta` (heading, subheading, CTA)
 
+Optional page-builder section toggles:
+- `layout.showHero`
+- `layout.showCtaBand`
+- `layout.showCapabilities`
+- `layout.showServices`
+- `layout.showTestimonials`
+- `layout.showTeam`
+- `layout.showFinalCta`
+
 If all required fields are present, page should render with no component edits.
 
 ## Add-New-Page Checklist

@@ -17,15 +17,15 @@ export function SeoLandingPage({ content }: { content: SeoPageContent }) {
       <Header />
 
       <div className="relative z-10 mx-auto w-full max-w-6xl">
-        <HeroBlock hero={content.hero} />
-        <CtaBandBlock ctaBand={content.ctaBand} />
-        <CapabilitiesBlock capabilities={content.capabilities} />
-        <ServicesBlock services={content.services} />
+        {content.layout?.showHero && <HeroBlock hero={content.hero} />}
+        {content.layout?.showCtaBand && <CtaBandBlock ctaBand={content.ctaBand} />}
+        {content.layout?.showCapabilities && <CapabilitiesBlock capabilities={content.capabilities} />}
+        {content.layout?.showServices && <ServicesBlock services={content.services} />}
 
-        <TestimonialsSection />
-        <TeamSection />
+        {content.layout?.showTestimonials && <TestimonialsSection />}
+        {content.layout?.showTeam && <TeamSection />}
 
-        <FinalCtaBlock finalCta={content.finalCta} />
+        {content.layout?.showFinalCta && <FinalCtaBlock finalCta={content.finalCta} />}
       </div>
 
       <FooterSection />
