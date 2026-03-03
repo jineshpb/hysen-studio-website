@@ -11,7 +11,7 @@
       "heading": "Design System Agency for Startups",
       "subheading": "Scale product quality without slowing down releases.",
       "description": "We structure your UI library, interaction patterns, and handoff logic so design and engineering can move faster together.",
-      "imageSrc": "/hero-car.png",
+      "imageSrc": "/landing/hero/hero-car.png",
       "imageAlt": "Product design system visual",
       "ctaLabel": "Book a Design System Sprint",
       "ctaHref": "/contact"
@@ -59,7 +59,7 @@
       "heading": "Design System Consulting Services",
       "subheading": "Get expert structure without bloating process.",
       "description": "We help teams diagnose what is broken, prioritize what matters, and implement only what improves delivery speed.",
-      "imageSrc": "/hero-car.png",
+      "imageSrc": "/landing/hero/hero-car.png",
       "imageAlt": "Design system consulting",
       "ctaLabel": "Book consulting session",
       "ctaHref": "/contact"
@@ -107,7 +107,7 @@
       "heading": "Build a Scalable Design System",
       "subheading": "Design foundations that hold as your product grows.",
       "description": "We create component and token frameworks that support new features without UI chaos or repeated rework.",
-      "imageSrc": "/hero-car.png",
+      "imageSrc": "/landing/hero/hero-car.png",
       "imageAlt": "Scalable design system",
       "ctaLabel": "Plan my design system",
       "ctaHref": "/contact"
@@ -155,7 +155,7 @@
       "heading": "Visual Identity Design Studio",
       "subheading": "A brand language that works across product and launch assets.",
       "description": "We build visual systems that are distinctive, usable, and consistent across digital and physical touchpoints.",
-      "imageSrc": "/hero-car.png",
+      "imageSrc": "/landing/hero/hero-car.png",
       "imageAlt": "Visual identity design",
       "ctaLabel": "Start identity project",
       "ctaHref": "/contact"
@@ -203,7 +203,7 @@
       "heading": "Startup Branding and Design System",
       "subheading": "One visual language from brand to product UI.",
       "description": "We connect identity decisions with interface systems so your startup feels coherent across every customer touchpoint.",
-      "imageSrc": "/hero-car.png",
+      "imageSrc": "/landing/hero/hero-car.png",
       "imageAlt": "Startup branding and design system",
       "ctaLabel": "Unify brand and product",
       "ctaHref": "/contact"
@@ -251,7 +251,7 @@
       "heading": "Rapid Prototyping Agency",
       "subheading": "Validate ideas before expensive engineering cycles.",
       "description": "We create decision-ready prototypes that help founders and teams align quickly and move forward with confidence.",
-      "imageSrc": "/hero-car.png",
+      "imageSrc": "/landing/hero/hero-car.png",
       "imageAlt": "Rapid prototyping",
       "ctaLabel": "Build a prototype",
       "ctaHref": "/contact"
@@ -299,7 +299,7 @@
       "heading": "Product Prototype Design Service",
       "subheading": "Move from concept to testable product experience quickly.",
       "description": "We design prototypes for critical user journeys so teams can validate assumptions before full-scale implementation.",
-      "imageSrc": "/hero-car.png",
+      "imageSrc": "/landing/hero/hero-car.png",
       "imageAlt": "Product prototype design",
       "ctaLabel": "Prototype my product",
       "ctaHref": "/contact"
@@ -347,7 +347,7 @@
       "heading": "Clickable Prototype for Investors",
       "subheading": "Make your product story tangible in minutes, not slides.",
       "description": "We help founders present product intent through clear prototype narratives that strengthen investor confidence.",
-      "imageSrc": "/hero-car.png",
+      "imageSrc": "/landing/hero/hero-car.png",
       "imageAlt": "Investor prototype",
       "ctaLabel": "Build investor demo",
       "ctaHref": "/contact"
@@ -395,7 +395,7 @@
       "heading": "Proof of Concept Design Partner",
       "subheading": "De-risk product decisions with focused PoC execution.",
       "description": "We design proof-of-concept experiences that validate feasibility, usability, and technical direction before major investment.",
-      "imageSrc": "/hero-car.png",
+      "imageSrc": "/landing/hero/hero-car.png",
       "imageAlt": "Proof of concept design",
       "ctaLabel": "Start a PoC",
       "ctaHref": "/contact"
@@ -443,7 +443,7 @@
       "heading": "MVP Prototype Design and Build",
       "subheading": "Launch lean, learn quickly, and iterate with purpose.",
       "description": "We help founders define MVP scope, prototype critical journeys, and set up a build-ready execution path.",
-      "imageSrc": "/hero-car.png",
+      "imageSrc": "/landing/hero/hero-car.png",
       "imageAlt": "MVP prototype design",
       "ctaLabel": "Start MVP planning",
       "ctaHref": "/contact"
