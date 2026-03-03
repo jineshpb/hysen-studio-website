@@ -4,19 +4,19 @@ import Image from "next/image";
 const brands = [
   {
     name: "bolt",
-    icon: "/brands/bolt.svg",
+    icon: "/hero/brands/bolt.svg",
   },
   {
     name: "Raycast",
-    icon: "/brands/ray.svg",
+    icon: "/hero/brands/ray.svg",
   },
   {
     name: "Soundcloud",
-    icon: "/brands/s-c.svg",
+    icon: "/hero/brands/s-c.svg",
   },
   {
     name: "Replicate",
-    icon: "/brands/replicate.svg",
+    icon: "/hero/brands/replicate.svg",
   },
 ];
 

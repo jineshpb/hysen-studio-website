@@ -19,14 +19,14 @@ export function FooterSection() {
               <div className="relative h-[80px] w-[320px] overflow-hidden md:h-[122px] md:w-[480px] lg:h-[100px] lg:w-[640px]">
                 <div className="flex flex-col transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:-translate-y-1/2 motion-reduce:transform-none">
                   <Image
-                    src="/logo-white.svg"
+                    src="/brand/logos/logo-white.svg"
                     alt="Hysen Studio"
                     width={640}
                     height={200}
                     className="h-[80px] w-[320px] object-contain md:h-[122px] md:w-[480px] lg:h-[120px] lg:w-[640px]"
                   />
                   <Image
-                    src="/logo-white.svg"
+                    src="/brand/logos/logo-white.svg"
                     alt=""
                     aria-hidden="true"
                     width={640}
