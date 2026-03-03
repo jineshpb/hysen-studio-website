@@ -16,6 +16,7 @@ const layoutKeys = [
   "showTeam",
   "showFinalCta",
 ];
+const layoutPresets = new Set(["full", "lean", "conversion"]);
 
 const errors = [];
 const seen = new Set();
@@ -45,6 +46,10 @@ if (!Array.isArray(data)) {
 
     if (!item.meta || !hasText(item.meta.title) || !hasText(item.meta.description)) {
       errors.push(`[${idx}] meta.title/meta.description required`);
+    }
+
+    if (item.layoutPreset !== undefined && !layoutPresets.has(item.layoutPreset)) {
+      errors.push(`[${idx}] layoutPreset must be one of: full | lean | conversion`);
     }
 
     if (item.layout !== undefined) {

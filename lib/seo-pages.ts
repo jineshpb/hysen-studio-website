@@ -18,6 +18,8 @@ export type SeoPageLayout = {
   showFinalCta?: boolean;
 };
 
+export type SeoLayoutPreset = "full" | "lean" | "conversion";
+
 export type SeoPageContent = {
   type: RouteType;
   slug: string;
@@ -26,6 +28,7 @@ export type SeoPageContent = {
     title: string;
     description: string;
   };
+  layoutPreset?: SeoLayoutPreset;
   layout?: SeoPageLayout;
   hero: {
     heading: string;
@@ -57,20 +60,47 @@ export type SeoPageContent = {
   };
 };
 
-const DEFAULT_LAYOUT: Required<SeoPageLayout> = {
-  showHero: true,
-  showCtaBand: true,
-  showCapabilities: true,
-  showServices: true,
-  showTestimonials: true,
-  showTeam: true,
-  showFinalCta: true,
+const LAYOUT_PRESETS: Record<SeoLayoutPreset, Required<SeoPageLayout>> = {
+  full: {
+    showHero: true,
+    showCtaBand: true,
+    showCapabilities: true,
+    showServices: true,
+    showTestimonials: true,
+    showTeam: true,
+    showFinalCta: true,
+  },
+  lean: {
+    showHero: true,
+    showCtaBand: false,
+    showCapabilities: true,
+    showServices: true,
+    showTestimonials: false,
+    showTeam: false,
+    showFinalCta: true,
+  },
+  conversion: {
+    showHero: true,
+    showCtaBand: true,
+    showCapabilities: true,
+    showServices: true,
+    showTestimonials: true,
+    showTeam: false,
+    showFinalCta: true,
+  },
 };
 
-export const SEO_PAGES: SeoPageContent[] = (seoPagesRaw as SeoPageContent[]).map((page) => ({
-  ...page,
-  layout: { ...DEFAULT_LAYOUT, ...page.layout },
-}));
+const DEFAULT_LAYOUT = LAYOUT_PRESETS.full;
+
+export const SEO_PAGES: SeoPageContent[] = (seoPagesRaw as SeoPageContent[]).map((page) => {
+  const preset = page.layoutPreset ? LAYOUT_PRESETS[page.layoutPreset] : DEFAULT_LAYOUT;
+
+  return {
+    ...page,
+    layoutPreset: page.layoutPreset ?? "full",
+    layout: { ...preset, ...page.layout },
+  };
+});
 
 export function getSeoPage(type: RouteType, slug: string) {
   return SEO_PAGES.find((page) => page.type === type && page.slug === slug);

@@ -23,10 +23,26 @@
       "ctaHref": "/contact"
     },
     "capabilities": [
-      { "title": "System Audit", "subtitle": "Find inconsistency and duplication quickly", "icon": "🧭" },
-      { "title": "Component Library", "subtitle": "Reusable components with state coverage", "icon": "🧱" },
-      { "title": "Token Architecture", "subtitle": "Scalable spacing, color, and typography tokens", "icon": "🎛️" },
-      { "title": "Handoff Rules", "subtitle": "Clear implementation notes for engineering", "icon": "🔧" }
+      {
+        "title": "System Audit",
+        "subtitle": "Find inconsistency and duplication quickly",
+        "icon": "\ud83e\udded"
+      },
+      {
+        "title": "Component Library",
+        "subtitle": "Reusable components with state coverage",
+        "icon": "\ud83e\uddf1"
+      },
+      {
+        "title": "Token Architecture",
+        "subtitle": "Scalable spacing, color, and typography tokens",
+        "icon": "\ud83c\udf9b\ufe0f"
+      },
+      {
+        "title": "Handoff Rules",
+        "subtitle": "Clear implementation notes for engineering",
+        "icon": "\ud83d\udd27"
+      }
     ],
     "services": {
       "heading": "What you get",
@@ -41,11 +57,12 @@
       "ctaHref": "/services"
     },
     "finalCta": {
-      "heading": "Let’s build a system your team actually uses",
-      "subheading": "Bring your current files and constraints. We’ll map the fastest rollout path.",
+      "heading": "Let\u2019s build a system your team actually uses",
+      "subheading": "Bring your current files and constraints. We\u2019ll map the fastest rollout path.",
       "ctaLabel": "Book a discovery call",
       "ctaHref": "/contact"
-    }
+    },
+    "layoutPreset": "conversion"
   },
   {
     "type": "services",
@@ -71,10 +88,26 @@
       "ctaHref": "/contact"
     },
     "capabilities": [
-      { "title": "Prioritization", "subtitle": "Identify highest ROI system changes", "icon": "📌" },
-      { "title": "Governance", "subtitle": "Create lightweight ownership and review loops", "icon": "🗂️" },
-      { "title": "Workflow Alignment", "subtitle": "Sync design with engineering realities", "icon": "🤝" },
-      { "title": "Quality Control", "subtitle": "Reduce regressions and visual inconsistency", "icon": "✅" }
+      {
+        "title": "Prioritization",
+        "subtitle": "Identify highest ROI system changes",
+        "icon": "\ud83d\udccc"
+      },
+      {
+        "title": "Governance",
+        "subtitle": "Create lightweight ownership and review loops",
+        "icon": "\ud83d\uddc2\ufe0f"
+      },
+      {
+        "title": "Workflow Alignment",
+        "subtitle": "Sync design with engineering realities",
+        "icon": "\ud83e\udd1d"
+      },
+      {
+        "title": "Quality Control",
+        "subtitle": "Reduce regressions and visual inconsistency",
+        "icon": "\u2705"
+      }
     ],
     "services": {
       "heading": "Consulting outcomes",
@@ -90,10 +123,11 @@
     },
     "finalCta": {
       "heading": "Need senior design system guidance without overhead?",
-      "subheading": "We’ll keep it practical and implementation-first.",
+      "subheading": "We\u2019ll keep it practical and implementation-first.",
       "ctaLabel": "Start with a discovery call",
       "ctaHref": "/contact"
-    }
+    },
+    "layoutPreset": "conversion"
   },
   {
     "type": "services",
@@ -119,10 +153,26 @@
       "ctaHref": "/contact"
     },
     "capabilities": [
-      { "title": "Foundation Setup", "subtitle": "Tokens, typography, spacing, and color systems", "icon": "🏗️" },
-      { "title": "Pattern Library", "subtitle": "Reusable UI patterns for repeated flows", "icon": "📚" },
-      { "title": "State Modeling", "subtitle": "Empty, loading, error, and edge-case coverage", "icon": "🔁" },
-      { "title": "Scale Readiness", "subtitle": "Versioning and rollout strategy", "icon": "📈" }
+      {
+        "title": "Foundation Setup",
+        "subtitle": "Tokens, typography, spacing, and color systems",
+        "icon": "\ud83c\udfd7\ufe0f"
+      },
+      {
+        "title": "Pattern Library",
+        "subtitle": "Reusable UI patterns for repeated flows",
+        "icon": "\ud83d\udcda"
+      },
+      {
+        "title": "State Modeling",
+        "subtitle": "Empty, loading, error, and edge-case coverage",
+        "icon": "\ud83d\udd01"
+      },
+      {
+        "title": "Scale Readiness",
+        "subtitle": "Versioning and rollout strategy",
+        "icon": "\ud83d\udcc8"
+      }
     ],
     "services": {
       "heading": "System build scope",
@@ -137,11 +187,12 @@
       "ctaHref": "/services"
     },
     "finalCta": {
-      "heading": "Let’s build once, then scale with confidence",
+      "heading": "Let\u2019s build once, then scale with confidence",
       "subheading": "You bring the product roadmap, we shape the system backbone.",
       "ctaLabel": "Book a build session",
       "ctaHref": "/contact"
-    }
+    },
+    "layoutPreset": "conversion"
   },
   {
     "type": "services",
@@ -167,10 +218,26 @@
       "ctaHref": "/contact"
     },
     "capabilities": [
-      { "title": "Brand Direction", "subtitle": "Positioning-backed visual routes", "icon": "🎯" },
-      { "title": "Identity System", "subtitle": "Logo, color, typography, iconography", "icon": "🎨" },
-      { "title": "Usage Guidelines", "subtitle": "Practical, team-ready brand rules", "icon": "📘" },
-      { "title": "Launch Consistency", "subtitle": "Unify website, social, and sales assets", "icon": "🚀" }
+      {
+        "title": "Brand Direction",
+        "subtitle": "Positioning-backed visual routes",
+        "icon": "\ud83c\udfaf"
+      },
+      {
+        "title": "Identity System",
+        "subtitle": "Logo, color, typography, iconography",
+        "icon": "\ud83c\udfa8"
+      },
+      {
+        "title": "Usage Guidelines",
+        "subtitle": "Practical, team-ready brand rules",
+        "icon": "\ud83d\udcd8"
+      },
+      {
+        "title": "Launch Consistency",
+        "subtitle": "Unify website, social, and sales assets",
+        "icon": "\ud83d\ude80"
+      }
     ],
     "services": {
       "heading": "Identity deliverables",
@@ -186,10 +253,11 @@
     },
     "finalCta": {
       "heading": "Need a visual identity that can actually ship?",
-      "subheading": "Let’s design a system your team can use every day.",
+      "subheading": "Let\u2019s design a system your team can use every day.",
       "ctaLabel": "Book a discovery call",
       "ctaHref": "/contact"
-    }
+    },
+    "layoutPreset": "conversion"
   },
   {
     "type": "services",
@@ -215,10 +283,26 @@
       "ctaHref": "/contact"
     },
     "capabilities": [
-      { "title": "Brand-UI Alignment", "subtitle": "Connect brand attributes to product patterns", "icon": "🔗" },
-      { "title": "System Thinking", "subtitle": "Shared rules for product and marketing teams", "icon": "🧠" },
-      { "title": "Launch Cohesion", "subtitle": "Consistent output across all channels", "icon": "📣" },
-      { "title": "Execution Support", "subtitle": "Practical rollout with real constraints", "icon": "⚙️" }
+      {
+        "title": "Brand-UI Alignment",
+        "subtitle": "Connect brand attributes to product patterns",
+        "icon": "\ud83d\udd17"
+      },
+      {
+        "title": "System Thinking",
+        "subtitle": "Shared rules for product and marketing teams",
+        "icon": "\ud83e\udde0"
+      },
+      {
+        "title": "Launch Cohesion",
+        "subtitle": "Consistent output across all channels",
+        "icon": "\ud83d\udce3"
+      },
+      {
+        "title": "Execution Support",
+        "subtitle": "Practical rollout with real constraints",
+        "icon": "\u2699\ufe0f"
+      }
     ],
     "services": {
       "heading": "Integrated scope",
@@ -234,10 +318,11 @@
     },
     "finalCta": {
       "heading": "Build one system. Ship with less friction.",
-      "subheading": "We’ll connect your brand story and product experience end-to-end.",
+      "subheading": "We\u2019ll connect your brand story and product experience end-to-end.",
       "ctaLabel": "Book a strategy call",
       "ctaHref": "/contact"
-    }
+    },
+    "layoutPreset": "conversion"
   },
   {
     "type": "services",
@@ -263,10 +348,26 @@
       "ctaHref": "/contact"
     },
     "capabilities": [
-      { "title": "UX Flows", "subtitle": "Map critical journeys and edge conditions", "icon": "🛣️" },
-      { "title": "Clickable Prototypes", "subtitle": "High-fidelity interaction demos", "icon": "🖱️" },
-      { "title": "PoC Experience", "subtitle": "Feasibility-oriented concept framing", "icon": "🧪" },
-      { "title": "Feedback Loops", "subtitle": "Rapid review and iteration cycles", "icon": "🔄" }
+      {
+        "title": "UX Flows",
+        "subtitle": "Map critical journeys and edge conditions",
+        "icon": "\ud83d\udee3\ufe0f"
+      },
+      {
+        "title": "Clickable Prototypes",
+        "subtitle": "High-fidelity interaction demos",
+        "icon": "\ud83d\uddb1\ufe0f"
+      },
+      {
+        "title": "PoC Experience",
+        "subtitle": "Feasibility-oriented concept framing",
+        "icon": "\ud83e\uddea"
+      },
+      {
+        "title": "Feedback Loops",
+        "subtitle": "Rapid review and iteration cycles",
+        "icon": "\ud83d\udd04"
+      }
     ],
     "services": {
       "heading": "Prototype sprint outputs",
@@ -282,10 +383,11 @@
     },
     "finalCta": {
       "heading": "Need speed without guesswork?",
-      "subheading": "Let’s prototype your high-risk flows first.",
+      "subheading": "Let\u2019s prototype your high-risk flows first.",
       "ctaLabel": "Book prototype sprint",
       "ctaHref": "/contact"
-    }
+    },
+    "layoutPreset": "conversion"
   },
   {
     "type": "services",
@@ -311,10 +413,26 @@
       "ctaHref": "/contact"
     },
     "capabilities": [
-      { "title": "Feature Prioritization", "subtitle": "Prototype what matters first", "icon": "🎯" },
-      { "title": "Interaction Design", "subtitle": "Clarify motion and usability details", "icon": "🧩" },
-      { "title": "Stakeholder Alignment", "subtitle": "Build consensus through tangible demos", "icon": "👥" },
-      { "title": "Build Readiness", "subtitle": "Translate prototype learnings into next steps", "icon": "📝" }
+      {
+        "title": "Feature Prioritization",
+        "subtitle": "Prototype what matters first",
+        "icon": "\ud83c\udfaf"
+      },
+      {
+        "title": "Interaction Design",
+        "subtitle": "Clarify motion and usability details",
+        "icon": "\ud83e\udde9"
+      },
+      {
+        "title": "Stakeholder Alignment",
+        "subtitle": "Build consensus through tangible demos",
+        "icon": "\ud83d\udc65"
+      },
+      {
+        "title": "Build Readiness",
+        "subtitle": "Translate prototype learnings into next steps",
+        "icon": "\ud83d\udcdd"
+      }
     ],
     "services": {
       "heading": "Prototype service includes",
@@ -330,10 +448,11 @@
     },
     "finalCta": {
       "heading": "Turn uncertain ideas into confident decisions",
-      "subheading": "Let’s design a prototype your team can act on.",
+      "subheading": "Let\u2019s design a prototype your team can act on.",
       "ctaLabel": "Book a discovery call",
       "ctaHref": "/contact"
-    }
+    },
+    "layoutPreset": "conversion"
   },
   {
     "type": "services",
@@ -353,16 +472,32 @@
       "ctaHref": "/contact"
     },
     "ctaBand": {
-      "heading": "Show, don’t just tell",
+      "heading": "Show, don\u2019t just tell",
       "subheading": "Investor conversations get easier with a guided product walkthrough.",
       "ctaLabel": "Start demo sprint",
       "ctaHref": "/contact"
     },
     "capabilities": [
-      { "title": "Narrative Flow", "subtitle": "Investor-friendly product sequencing", "icon": "📖" },
-      { "title": "Demo UX", "subtitle": "Clear interactions with compelling context", "icon": "🎬" },
-      { "title": "Pitch Alignment", "subtitle": "Prototype and deck story cohesion", "icon": "📊" },
-      { "title": "Founder Enablement", "subtitle": "Run-through support before key meetings", "icon": "🗣️" }
+      {
+        "title": "Narrative Flow",
+        "subtitle": "Investor-friendly product sequencing",
+        "icon": "\ud83d\udcd6"
+      },
+      {
+        "title": "Demo UX",
+        "subtitle": "Clear interactions with compelling context",
+        "icon": "\ud83c\udfac"
+      },
+      {
+        "title": "Pitch Alignment",
+        "subtitle": "Prototype and deck story cohesion",
+        "icon": "\ud83d\udcca"
+      },
+      {
+        "title": "Founder Enablement",
+        "subtitle": "Run-through support before key meetings",
+        "icon": "\ud83d\udde3\ufe0f"
+      }
     ],
     "services": {
       "heading": "Investor prototype package",
@@ -378,10 +513,11 @@
     },
     "finalCta": {
       "heading": "Need an investor demo that lands fast?",
-      "subheading": "Let’s shape your prototype narrative for high-stakes conversations.",
+      "subheading": "Let\u2019s shape your prototype narrative for high-stakes conversations.",
       "ctaLabel": "Book a demo strategy call",
       "ctaHref": "/contact"
-    }
+    },
+    "layoutPreset": "conversion"
   },
   {
     "type": "services",
@@ -407,10 +543,26 @@
       "ctaHref": "/contact"
     },
     "capabilities": [
-      { "title": "Feasibility Framing", "subtitle": "Define what must be proven first", "icon": "🧠" },
-      { "title": "Risk Prioritization", "subtitle": "Focus on the highest uncertainty areas", "icon": "⚠️" },
-      { "title": "PoC Experience Design", "subtitle": "Testable and measurable concept flows", "icon": "🧪" },
-      { "title": "Decision Support", "subtitle": "Translate findings into build direction", "icon": "📌" }
+      {
+        "title": "Feasibility Framing",
+        "subtitle": "Define what must be proven first",
+        "icon": "\ud83e\udde0"
+      },
+      {
+        "title": "Risk Prioritization",
+        "subtitle": "Focus on the highest uncertainty areas",
+        "icon": "\u26a0\ufe0f"
+      },
+      {
+        "title": "PoC Experience Design",
+        "subtitle": "Testable and measurable concept flows",
+        "icon": "\ud83e\uddea"
+      },
+      {
+        "title": "Decision Support",
+        "subtitle": "Translate findings into build direction",
+        "icon": "\ud83d\udccc"
+      }
     ],
     "services": {
       "heading": "PoC partner scope",
@@ -426,10 +578,11 @@
     },
     "finalCta": {
       "heading": "Want confidence before committing bigger budgets?",
-      "subheading": "Let’s design a PoC around the risks that matter.",
+      "subheading": "Let\u2019s design a PoC around the risks that matter.",
       "ctaLabel": "Book a PoC discovery call",
       "ctaHref": "/contact"
-    }
+    },
+    "layoutPreset": "conversion"
   },
   {
     "type": "services",
@@ -455,10 +608,26 @@
       "ctaHref": "/contact"
     },
     "capabilities": [
-      { "title": "MVP Scope", "subtitle": "Separate must-have from noise", "icon": "✂️" },
-      { "title": "Core Journey Design", "subtitle": "Prototype the paths users care about", "icon": "🗺️" },
-      { "title": "Launch Readiness", "subtitle": "Prepare for early user feedback loops", "icon": "🚦" },
-      { "title": "Iteration Plan", "subtitle": "Post-launch improvement roadmap", "icon": "📍" }
+      {
+        "title": "MVP Scope",
+        "subtitle": "Separate must-have from noise",
+        "icon": "\u2702\ufe0f"
+      },
+      {
+        "title": "Core Journey Design",
+        "subtitle": "Prototype the paths users care about",
+        "icon": "\ud83d\uddfa\ufe0f"
+      },
+      {
+        "title": "Launch Readiness",
+        "subtitle": "Prepare for early user feedback loops",
+        "icon": "\ud83d\udea6"
+      },
+      {
+        "title": "Iteration Plan",
+        "subtitle": "Post-launch improvement roadmap",
+        "icon": "\ud83d\udccd"
+      }
     ],
     "services": {
       "heading": "MVP support includes",
@@ -474,9 +643,10 @@
     },
     "finalCta": {
       "heading": "Ready to launch your MVP without the usual chaos?",
-      "subheading": "We’ll help you define, prototype, and execute the right first version.",
+      "subheading": "We\u2019ll help you define, prototype, and execute the right first version.",
       "ctaLabel": "Book MVP kickoff",
       "ctaHref": "/contact"
-    }
+    },
+    "layoutPreset": "conversion"
   }
 ]

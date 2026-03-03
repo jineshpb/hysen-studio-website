@@ -44,7 +44,12 @@ A dynamic page should be renderable with data only:
 - `services` (heading, points[], CTA)
 - `finalCta` (heading, subheading, CTA)
 
-Optional page-builder section toggles:
+Optional page-builder presets:
+- `layoutPreset: "full"` (all sections)
+- `layoutPreset: "lean"` (no testimonials/team/cta band)
+- `layoutPreset: "conversion"` (team off, testimonials on)
+
+Optional section overrides (advanced):
 - `layout.showHero`
 - `layout.showCtaBand`
 - `layout.showCapabilities`
