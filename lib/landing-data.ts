@@ -138,19 +138,23 @@ export type FooterSitemapLink = {
 };
 
 export const footerSitemapLinks: FooterSitemapLink[] = [
-  { label: "Home", href: "#" },
-  { label: "Services", href: "#" },
-  { label: "Projects", href: "#" },
-  { label: "Testimonials", href: "#" },
-  { label: "Process", href: "#" },
-  { label: "Industries", href: "#" },
-  { label: "Product Design", href: "#" },
-  { label: "Industrial Design", href: "#" },
-  { label: "Engineering", href: "#" },
-  { label: "Branding", href: "#" },
-  { label: "Start a Project", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Careers", href: "#" },
-  { label: "Contact", href: "#" },
-  { label: "Privacy Policy", href: "#" },
+  { label: "Home", href: "/" },
+  { label: "All Services", href: "/services" },
+  { label: "All Use Cases", href: "/use-cases" },
+  { label: "All Locations", href: "/locations" },
+
+  // Curated high-intent pages (footer subset)
+  { label: "Design System Agency", href: "/services/design-system-agency-for-startups" },
+  { label: "Rapid Prototyping Agency", href: "/services/rapid-prototyping-agency" },
+  { label: "Product + Engineering Support", href: "/services/product-design-and-engineering-support" },
+  { label: "Packaging Design Studio India", href: "/services/packaging-design-studio-india" },
+  { label: "Launch Collateral Design", href: "/services/launch-collateral-design-service" },
+
+  { label: "Design-to-Dev Handoff", href: "/use-cases/design-to-development-handoff-service" },
+  { label: "Go-to-Market Design Support", href: "/use-cases/go-to-market-design-support" },
+  { label: "Reliable Design Partner", href: "/use-cases/reliable-design-partner-for-startup" },
+
+  { label: "UI/UX Agency India", href: "/locations/ui-ux-agency-india-for-startups" },
+  { label: "Branding + Packaging Bangalore", href: "/locations/branding-and-packaging-agency-bangalore" },
+  { label: "Remote Product Design India", href: "/locations/remote-product-design-partner-india" },
 ];

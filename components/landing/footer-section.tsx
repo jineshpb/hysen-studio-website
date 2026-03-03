@@ -42,10 +42,13 @@ export function FooterSection() {
               Consulting - Design - Engineering
             </p>
 
-            <div className="mt-10 inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-5 py-3 text-sm font-medium text-white backdrop-blur-sm transition-colors hover:bg-white hover:text-[#2d3137]">
+            <Link
+              href="/services"
+              className="mt-10 inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-5 py-3 text-sm font-medium text-white backdrop-blur-sm transition-colors hover:bg-white hover:text-[#2d3137]"
+            >
               Let&apos;s build together
               <ArrowUpRight className="h-4 w-4" />
-            </div>
+            </Link>
           </div>
 
           <div>
