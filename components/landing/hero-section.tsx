@@ -38,7 +38,7 @@ export function HeroSection() {
       <div className="relative mx-auto -mt-24">
         <Image
           className="z-10"
-          src="/landing/hero/hero-car.png"
+          src="/hero/home/hero-car.png"
           alt="Hero Section"
           width={700}
           height={700}
