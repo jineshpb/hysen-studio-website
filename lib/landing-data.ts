@@ -1,6 +1,17 @@
 import type { ServiceCardData } from "@/components/landing/service-card";
 import type { ProjectCardData } from "@/components/landing/project-card";
 
+export type TestimonialData = {
+  quote: string;
+  highlight?: string;
+  name: string;
+  role: string;
+  company: string;
+  avatarLabel: string;
+  active?: boolean;
+  avatarImage?: string;
+};
+
 export const serviceTiles: ServiceCardData[] = [
   {
     title: "Prototyping & proof of concepts",
@@ -88,4 +99,58 @@ export const projectTiles: ProjectCardData[] = [
     projectGradient: "from-[#CACACA] to-[#5E5E5E]",
     descriptionTextColor: "#d1d5db",
   },
+];
+
+export const testimonials: TestimonialData[] = [
+  {
+    quote: "I love using VEED. The subtitles are the most accurate I've seen on the market.",
+    highlight: "It's helped take my content to the next level.",
+    name: "Laura Haleydt",
+    role: "Brand Marketing Manager",
+    company: "Carlsberg",
+    avatarLabel: "LH",
+    active: true,
+    avatarImage: "/avatars/user-1.png",
+  },
+  {
+    quote:
+      "I used Loom to record, Rev for captions, Google for storing and Youtube to get a share link. I can now do this all in one spot with VEED.",
+    name: "Cedric Gustavo Ravache",
+    role: "Enterprise Account Executive",
+    company: "Cloud Software Group",
+    avatarLabel: "CR",
+    avatarImage: "/avatars/user-2.png",
+  },
+  {
+    quote:
+      "VEED is my one-stop-shop. It's cut my editing time by around 60%, from helping with my online career to my business.",
+    name: "Nawid Nabil",
+    role: "Entrepreneur",
+    company: "The Ecom King",
+    avatarLabel: "NN",
+    avatarImage: "/avatars/user-3.png",
+  },
+];
+
+export type FooterSitemapLink = {
+  label: string;
+  href: string;
+};
+
+export const footerSitemapLinks: FooterSitemapLink[] = [
+  { label: "Home", href: "#" },
+  { label: "Services", href: "#" },
+  { label: "Projects", href: "#" },
+  { label: "Testimonials", href: "#" },
+  { label: "Process", href: "#" },
+  { label: "Industries", href: "#" },
+  { label: "Product Design", href: "#" },
+  { label: "Industrial Design", href: "#" },
+  { label: "Engineering", href: "#" },
+  { label: "Branding", href: "#" },
+  { label: "Start a Project", href: "#" },
+  { label: "Pricing", href: "#" },
+  { label: "Careers", href: "#" },
+  { label: "Contact", href: "#" },
+  { label: "Privacy Policy", href: "#" },
 ];

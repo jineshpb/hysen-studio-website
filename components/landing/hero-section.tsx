@@ -29,10 +29,10 @@ export function HeroSection() {
         <br />
         We build it.
       </h1>
-      <h2 className="text-[30px] font-medium  sm:text-[30px] tracking-tighter font-mono font-medium bg-brand-primary-gradient text-transparent bg-clip-text font-sans mt-4">
+      <h2 className="mt-4 text-[30px] font-medium tracking-tighter bg-brand-primary-gradient text-transparent bg-clip-text sm:text-[30px]">
         Design, prototype, and brand — all in one studio.
       </h2>
-      <p className="text-[16px] font-medium   sm:text-[16px] tracking-tighter  font-sans text-gray-500">
+      <p className="text-[16px] font-medium   sm:text-[16px] tracking-tighter text-gray-500">
         Work with a team that turns concepts into real, testable products without the usual delays.
       </p>
       <div className="relative mx-auto -mt-24">
