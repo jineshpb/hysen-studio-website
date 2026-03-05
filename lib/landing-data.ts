@@ -49,7 +49,7 @@ export const projectTiles: ProjectCardData[] = [
     title: "Aether Marine EV",
     description: "Electric catamaran concept refined from sketch to showroom prototype.",
     imageType: "image",
-    imageSrc: "/projects/image-1.png",
+    imageSrc: "/projects/tiles/image-1.png",
     textOverlay: true,
     projectGradient: "from-[#181414] to-[#323232]",
     descriptionTextColor: "#52525b",
@@ -58,7 +58,7 @@ export const projectTiles: ProjectCardData[] = [
     title: "Orbit Assistant",
     description: "Consumer robot identity and launch visuals for first-round investor demos.",
     imageType: "image",
-    imageSrc: "/projects/image-2.png",
+    imageSrc: "/projects/tiles/image-2.png",
     textOverlay: true,
     projectGradient: "from-[#CDFFAB] to-[#D5FFB8]",
     descriptionTextColor: "#134e4a",
@@ -67,7 +67,7 @@ export const projectTiles: ProjectCardData[] = [
     title: "RetroCore Console",
     description: "Industrial redesign of a nostalgic gaming unit with modern internals.",
     imageType: "image",
-    imageSrc: "/projects/image-3.png",
+    imageSrc: "/projects/tiles/image-3.png",
     textOverlay: true,
     projectGradient: "from-[#CACACA] to-[#5E5E5E]",
     descriptionTextColor: "#3f3f46",
@@ -76,7 +76,7 @@ export const projectTiles: ProjectCardData[] = [
     title: "Trailframe Utility EV",
     description: "Off-road platform with modular chassis and production-ready surfacing.",
     imageType: "image",
-    imageSrc: "/projects/image-4.png",
+    imageSrc: "/projects/tiles/image-4.png",
     textOverlay: true,
     projectGradient: "from-[#F7A591] to-[#FF7959]",
     descriptionTextColor: "#ffedd4",
@@ -85,7 +85,7 @@ export const projectTiles: ProjectCardData[] = [
     title: "Helix Cockpit",
     description: "Automotive steering interface study focused on UX and premium finish.",
     imageType: "image",
-    imageSrc: "/projects/image-5.png",
+    imageSrc: "/projects/tiles/image-5.png",
     textOverlay: true,
     projectGradient: "from-[#303936] to-[#45504A]",
     descriptionTextColor: "#a4f4cf",
@@ -94,7 +94,7 @@ export const projectTiles: ProjectCardData[] = [
     title: "Nova Home Drone",
     description: "Compact indoor drone product language and packaging system exploration.",
     imageType: "image",
-    imageSrc: "/projects/image-1.png",
+    imageSrc: "/projects/tiles/image-1.png",
     textOverlay: true,
     projectGradient: "from-[#CACACA] to-[#5E5E5E]",
     descriptionTextColor: "#d1d5db",
@@ -110,7 +110,7 @@ export const testimonials: TestimonialData[] = [
     company: "Carlsberg",
     avatarLabel: "LH",
     active: true,
-    avatarImage: "/avatars/user-1.png",
+    avatarImage: "/testimonials/avatars/user-1.png",
   },
   {
     quote:
@@ -119,7 +119,7 @@ export const testimonials: TestimonialData[] = [
     role: "Enterprise Account Executive",
     company: "Cloud Software Group",
     avatarLabel: "CR",
-    avatarImage: "/avatars/user-2.png",
+    avatarImage: "/testimonials/avatars/user-2.png",
   },
   {
     quote:
@@ -128,7 +128,7 @@ export const testimonials: TestimonialData[] = [
     role: "Entrepreneur",
     company: "The Ecom King",
     avatarLabel: "NN",
-    avatarImage: "/avatars/user-3.png",
+    avatarImage: "/testimonials/avatars/user-3.png",
   },
 ];
 
@@ -138,19 +138,23 @@ export type FooterSitemapLink = {
 };
 
 export const footerSitemapLinks: FooterSitemapLink[] = [
-  { label: "Home", href: "#" },
-  { label: "Services", href: "#" },
-  { label: "Projects", href: "#" },
-  { label: "Testimonials", href: "#" },
-  { label: "Process", href: "#" },
-  { label: "Industries", href: "#" },
-  { label: "Product Design", href: "#" },
-  { label: "Industrial Design", href: "#" },
-  { label: "Engineering", href: "#" },
-  { label: "Branding", href: "#" },
-  { label: "Start a Project", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Careers", href: "#" },
-  { label: "Contact", href: "#" },
-  { label: "Privacy Policy", href: "#" },
+  { label: "Home", href: "/" },
+  { label: "All Services", href: "/services" },
+  { label: "All Use Cases", href: "/use-cases" },
+  { label: "All Locations", href: "/locations" },
+
+  // Curated high-intent pages (footer subset)
+  { label: "Design System Agency", href: "/services/design-system-agency-for-startups" },
+  { label: "Rapid Prototyping Agency", href: "/services/rapid-prototyping-agency" },
+  { label: "Product + Engineering Support", href: "/services/product-design-and-engineering-support" },
+  { label: "Packaging Design Studio India", href: "/services/packaging-design-studio-india" },
+  { label: "Launch Collateral Design", href: "/services/launch-collateral-design-service" },
+
+  { label: "Design-to-Dev Handoff", href: "/use-cases/design-to-development-handoff-service" },
+  { label: "Go-to-Market Design Support", href: "/use-cases/go-to-market-design-support" },
+  { label: "Reliable Design Partner", href: "/use-cases/reliable-design-partner-for-startup" },
+
+  { label: "UI/UX Agency India", href: "/locations/ui-ux-agency-india-for-startups" },
+  { label: "Branding + Packaging Bangalore", href: "/locations/branding-and-packaging-agency-bangalore" },
+  { label: "Remote Product Design India", href: "/locations/remote-product-design-partner-india" },
 ];

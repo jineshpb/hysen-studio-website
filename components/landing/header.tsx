@@ -8,7 +8,7 @@ export const Header = () => {
       <div className="flex items-center justify-between max-w-6xl mx-auto z-10 h-[72px] relative">
         <div className="absolute inset-x-0 top-0 h-[220px] bg-[radial-gradient(ellipse_at_top,_#f3822e66_0%,_#f3822e00_66%)]" />
         <Link href="/">
-          <Image src="/logo-white.svg" alt="Logo" width={140} height={120} />
+          <Image src="/brand/logos/logo-white.svg" alt="Logo" width={140} height={120} />
         </Link>
         <div className=" h-[72px] bg-[linear-gradient(to_bottom,#000000_0%,#00000000_100%)]" />
       </div>

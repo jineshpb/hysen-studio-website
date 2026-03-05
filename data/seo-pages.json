@@ -1,0 +1,652 @@
+[
+  {
+    "type": "services",
+    "slug": "design-system-agency-for-startups",
+    "keyword": "design system agency for startups",
+    "meta": {
+      "title": "Design System Agency for Startups | Heisen Forge",
+      "description": "Build a scalable design system your startup team can actually ship with."
+    },
+    "hero": {
+      "heading": "Design System Agency for Startups",
+      "subheading": "Scale product quality without slowing down releases.",
+      "description": "We structure your UI library, interaction patterns, and handoff logic so design and engineering can move faster together.",
+      "imageSrc": "/hero/services/hero-car.png",
+      "imageAlt": "Product design system visual",
+      "ctaLabel": "Book a Design System Sprint",
+      "ctaHref": "/contact"
+    },
+    "ctaBand": {
+      "heading": "Fix UI drift before it compounds",
+      "subheading": "Get a practical system your team can adopt in weeks, not quarters.",
+      "ctaLabel": "Start a project",
+      "ctaHref": "/contact"
+    },
+    "capabilities": [
+      {
+        "title": "System Audit",
+        "subtitle": "Find inconsistency and duplication quickly",
+        "icon": "\ud83e\udded"
+      },
+      {
+        "title": "Component Library",
+        "subtitle": "Reusable components with state coverage",
+        "icon": "\ud83e\uddf1"
+      },
+      {
+        "title": "Token Architecture",
+        "subtitle": "Scalable spacing, color, and typography tokens",
+        "icon": "\ud83c\udf9b\ufe0f"
+      },
+      {
+        "title": "Handoff Rules",
+        "subtitle": "Clear implementation notes for engineering",
+        "icon": "\ud83d\udd27"
+      }
+    ],
+    "services": {
+      "heading": "What you get",
+      "points": [
+        "Design system audit report",
+        "Core component library setup",
+        "Token and naming convention framework",
+        "State and interaction documentation",
+        "Adoption plan for product + engineering"
+      ],
+      "ctaLabel": "See how we work",
+      "ctaHref": "/services"
+    },
+    "finalCta": {
+      "heading": "Let\u2019s build a system your team actually uses",
+      "subheading": "Bring your current files and constraints. We\u2019ll map the fastest rollout path.",
+      "ctaLabel": "Book a discovery call",
+      "ctaHref": "/contact"
+    },
+    "layoutPreset": "conversion"
+  },
+  {
+    "type": "services",
+    "slug": "design-system-consulting-services",
+    "keyword": "design system consulting services",
+    "meta": {
+      "title": "Design System Consulting Services | Heisen Forge",
+      "description": "Consulting for design systems that improve speed, consistency, and handoff quality."
+    },
+    "hero": {
+      "heading": "Design System Consulting Services",
+      "subheading": "Get expert structure without bloating process.",
+      "description": "We help teams diagnose what is broken, prioritize what matters, and implement only what improves delivery speed.",
+      "imageSrc": "/hero/services/hero-car.png",
+      "imageAlt": "Design system consulting",
+      "ctaLabel": "Book consulting session",
+      "ctaHref": "/contact"
+    },
+    "ctaBand": {
+      "heading": "From fragmented UI to predictable shipping",
+      "subheading": "A focused consulting model tuned for lean teams.",
+      "ctaLabel": "Talk to us",
+      "ctaHref": "/contact"
+    },
+    "capabilities": [
+      {
+        "title": "Prioritization",
+        "subtitle": "Identify highest ROI system changes",
+        "icon": "\ud83d\udccc"
+      },
+      {
+        "title": "Governance",
+        "subtitle": "Create lightweight ownership and review loops",
+        "icon": "\ud83d\uddc2\ufe0f"
+      },
+      {
+        "title": "Workflow Alignment",
+        "subtitle": "Sync design with engineering realities",
+        "icon": "\ud83e\udd1d"
+      },
+      {
+        "title": "Quality Control",
+        "subtitle": "Reduce regressions and visual inconsistency",
+        "icon": "\u2705"
+      }
+    ],
+    "services": {
+      "heading": "Consulting outcomes",
+      "points": [
+        "Current-state audit and scorecard",
+        "System roadmap by priority",
+        "Design-dev workflow recommendations",
+        "Governance model for maintenance",
+        "Execution support in selected sprints"
+      ],
+      "ctaLabel": "Explore services",
+      "ctaHref": "/services"
+    },
+    "finalCta": {
+      "heading": "Need senior design system guidance without overhead?",
+      "subheading": "We\u2019ll keep it practical and implementation-first.",
+      "ctaLabel": "Start with a discovery call",
+      "ctaHref": "/contact"
+    },
+    "layoutPreset": "conversion"
+  },
+  {
+    "type": "services",
+    "slug": "build-a-scalable-design-system",
+    "keyword": "build a scalable design system",
+    "meta": {
+      "title": "Build a Scalable Design System | Heisen Forge",
+      "description": "Build a scalable design system that supports product growth and faster releases."
+    },
+    "hero": {
+      "heading": "Build a Scalable Design System",
+      "subheading": "Design foundations that hold as your product grows.",
+      "description": "We create component and token frameworks that support new features without UI chaos or repeated rework.",
+      "imageSrc": "/hero/services/hero-car.png",
+      "imageAlt": "Scalable design system",
+      "ctaLabel": "Plan my design system",
+      "ctaHref": "/contact"
+    },
+    "ctaBand": {
+      "heading": "Scale without breaking consistency",
+      "subheading": "Create reusable patterns before velocity exposes gaps.",
+      "ctaLabel": "Start now",
+      "ctaHref": "/contact"
+    },
+    "capabilities": [
+      {
+        "title": "Foundation Setup",
+        "subtitle": "Tokens, typography, spacing, and color systems",
+        "icon": "\ud83c\udfd7\ufe0f"
+      },
+      {
+        "title": "Pattern Library",
+        "subtitle": "Reusable UI patterns for repeated flows",
+        "icon": "\ud83d\udcda"
+      },
+      {
+        "title": "State Modeling",
+        "subtitle": "Empty, loading, error, and edge-case coverage",
+        "icon": "\ud83d\udd01"
+      },
+      {
+        "title": "Scale Readiness",
+        "subtitle": "Versioning and rollout strategy",
+        "icon": "\ud83d\udcc8"
+      }
+    ],
+    "services": {
+      "heading": "System build scope",
+      "points": [
+        "Design foundation architecture",
+        "Core and advanced components",
+        "Usage rules and pattern documentation",
+        "Design-to-dev handoff templates",
+        "Maintenance and scaling playbook"
+      ],
+      "ctaLabel": "See implementation model",
+      "ctaHref": "/services"
+    },
+    "finalCta": {
+      "heading": "Let\u2019s build once, then scale with confidence",
+      "subheading": "You bring the product roadmap, we shape the system backbone.",
+      "ctaLabel": "Book a build session",
+      "ctaHref": "/contact"
+    },
+    "layoutPreset": "conversion"
+  },
+  {
+    "type": "services",
+    "slug": "visual-identity-design-studio",
+    "keyword": "visual identity design studio",
+    "meta": {
+      "title": "Visual Identity Design Studio | Heisen Forge",
+      "description": "Visual identity systems for startups and product teams ready to launch clearly."
+    },
+    "hero": {
+      "heading": "Visual Identity Design Studio",
+      "subheading": "A brand language that works across product and launch assets.",
+      "description": "We build visual systems that are distinctive, usable, and consistent across digital and physical touchpoints.",
+      "imageSrc": "/hero/services/hero-car.png",
+      "imageAlt": "Visual identity design",
+      "ctaLabel": "Start identity project",
+      "ctaHref": "/contact"
+    },
+    "ctaBand": {
+      "heading": "Beyond logo: build a usable brand system",
+      "subheading": "From typography to motion language, aligned to product reality.",
+      "ctaLabel": "Talk to the team",
+      "ctaHref": "/contact"
+    },
+    "capabilities": [
+      {
+        "title": "Brand Direction",
+        "subtitle": "Positioning-backed visual routes",
+        "icon": "\ud83c\udfaf"
+      },
+      {
+        "title": "Identity System",
+        "subtitle": "Logo, color, typography, iconography",
+        "icon": "\ud83c\udfa8"
+      },
+      {
+        "title": "Usage Guidelines",
+        "subtitle": "Practical, team-ready brand rules",
+        "icon": "\ud83d\udcd8"
+      },
+      {
+        "title": "Launch Consistency",
+        "subtitle": "Unify website, social, and sales assets",
+        "icon": "\ud83d\ude80"
+      }
+    ],
+    "services": {
+      "heading": "Identity deliverables",
+      "points": [
+        "Visual direction and mood boards",
+        "Core brand identity system",
+        "Brand application examples",
+        "Guideline documentation",
+        "Launch asset starter kit"
+      ],
+      "ctaLabel": "View service stack",
+      "ctaHref": "/services"
+    },
+    "finalCta": {
+      "heading": "Need a visual identity that can actually ship?",
+      "subheading": "Let\u2019s design a system your team can use every day.",
+      "ctaLabel": "Book a discovery call",
+      "ctaHref": "/contact"
+    },
+    "layoutPreset": "conversion"
+  },
+  {
+    "type": "services",
+    "slug": "startup-branding-and-design-system",
+    "keyword": "startup branding and design system",
+    "meta": {
+      "title": "Startup Branding and Design System | Heisen Forge",
+      "description": "Unify startup branding and design system execution in one partner."
+    },
+    "hero": {
+      "heading": "Startup Branding and Design System",
+      "subheading": "One visual language from brand to product UI.",
+      "description": "We connect identity decisions with interface systems so your startup feels coherent across every customer touchpoint.",
+      "imageSrc": "/hero/services/hero-car.png",
+      "imageAlt": "Startup branding and design system",
+      "ctaLabel": "Unify brand and product",
+      "ctaHref": "/contact"
+    },
+    "ctaBand": {
+      "heading": "Stop treating brand and product as separate worlds",
+      "subheading": "Create one connected system your whole team can execute.",
+      "ctaLabel": "Start project",
+      "ctaHref": "/contact"
+    },
+    "capabilities": [
+      {
+        "title": "Brand-UI Alignment",
+        "subtitle": "Connect brand attributes to product patterns",
+        "icon": "\ud83d\udd17"
+      },
+      {
+        "title": "System Thinking",
+        "subtitle": "Shared rules for product and marketing teams",
+        "icon": "\ud83e\udde0"
+      },
+      {
+        "title": "Launch Cohesion",
+        "subtitle": "Consistent output across all channels",
+        "icon": "\ud83d\udce3"
+      },
+      {
+        "title": "Execution Support",
+        "subtitle": "Practical rollout with real constraints",
+        "icon": "\u2699\ufe0f"
+      }
+    ],
+    "services": {
+      "heading": "Integrated scope",
+      "points": [
+        "Brand identity foundation",
+        "Product UI system setup",
+        "Cross-team style governance",
+        "Launch collateral alignment",
+        "Handoff + implementation support"
+      ],
+      "ctaLabel": "Explore all services",
+      "ctaHref": "/services"
+    },
+    "finalCta": {
+      "heading": "Build one system. Ship with less friction.",
+      "subheading": "We\u2019ll connect your brand story and product experience end-to-end.",
+      "ctaLabel": "Book a strategy call",
+      "ctaHref": "/contact"
+    },
+    "layoutPreset": "conversion"
+  },
+  {
+    "type": "services",
+    "slug": "rapid-prototyping-agency",
+    "keyword": "rapid prototyping agency",
+    "meta": {
+      "title": "Rapid Prototyping Agency | Heisen Forge",
+      "description": "Turn ideas into testable prototypes quickly to reduce build risk."
+    },
+    "hero": {
+      "heading": "Rapid Prototyping Agency",
+      "subheading": "Validate ideas before expensive engineering cycles.",
+      "description": "We create decision-ready prototypes that help founders and teams align quickly and move forward with confidence.",
+      "imageSrc": "/hero/services/hero-car.png",
+      "imageAlt": "Rapid prototyping",
+      "ctaLabel": "Build a prototype",
+      "ctaHref": "/contact"
+    },
+    "ctaBand": {
+      "heading": "Prototype first, overbuild less",
+      "subheading": "Fast loops for faster product decisions.",
+      "ctaLabel": "Start prototyping",
+      "ctaHref": "/contact"
+    },
+    "capabilities": [
+      {
+        "title": "UX Flows",
+        "subtitle": "Map critical journeys and edge conditions",
+        "icon": "\ud83d\udee3\ufe0f"
+      },
+      {
+        "title": "Clickable Prototypes",
+        "subtitle": "High-fidelity interaction demos",
+        "icon": "\ud83d\uddb1\ufe0f"
+      },
+      {
+        "title": "PoC Experience",
+        "subtitle": "Feasibility-oriented concept framing",
+        "icon": "\ud83e\uddea"
+      },
+      {
+        "title": "Feedback Loops",
+        "subtitle": "Rapid review and iteration cycles",
+        "icon": "\ud83d\udd04"
+      }
+    ],
+    "services": {
+      "heading": "Prototype sprint outputs",
+      "points": [
+        "Hypothesis and scope framing",
+        "Core user flow prototypes",
+        "Interaction logic annotations",
+        "Iteration pass based on feedback",
+        "Build recommendation brief"
+      ],
+      "ctaLabel": "See our process",
+      "ctaHref": "/use-cases"
+    },
+    "finalCta": {
+      "heading": "Need speed without guesswork?",
+      "subheading": "Let\u2019s prototype your high-risk flows first.",
+      "ctaLabel": "Book prototype sprint",
+      "ctaHref": "/contact"
+    },
+    "layoutPreset": "conversion"
+  },
+  {
+    "type": "services",
+    "slug": "product-prototype-design-service",
+    "keyword": "product prototype design service",
+    "meta": {
+      "title": "Product Prototype Design Service | Heisen Forge",
+      "description": "Design product prototypes that align teams and de-risk product decisions."
+    },
+    "hero": {
+      "heading": "Product Prototype Design Service",
+      "subheading": "Move from concept to testable product experience quickly.",
+      "description": "We design prototypes for critical user journeys so teams can validate assumptions before full-scale implementation.",
+      "imageSrc": "/hero/services/hero-car.png",
+      "imageAlt": "Product prototype design",
+      "ctaLabel": "Prototype my product",
+      "ctaHref": "/contact"
+    },
+    "ctaBand": {
+      "heading": "Get clarity before committing engineering time",
+      "subheading": "Prototype decisions that unblock roadmap execution.",
+      "ctaLabel": "Talk to us",
+      "ctaHref": "/contact"
+    },
+    "capabilities": [
+      {
+        "title": "Feature Prioritization",
+        "subtitle": "Prototype what matters first",
+        "icon": "\ud83c\udfaf"
+      },
+      {
+        "title": "Interaction Design",
+        "subtitle": "Clarify motion and usability details",
+        "icon": "\ud83e\udde9"
+      },
+      {
+        "title": "Stakeholder Alignment",
+        "subtitle": "Build consensus through tangible demos",
+        "icon": "\ud83d\udc65"
+      },
+      {
+        "title": "Build Readiness",
+        "subtitle": "Translate prototype learnings into next steps",
+        "icon": "\ud83d\udcdd"
+      }
+    ],
+    "services": {
+      "heading": "Prototype service includes",
+      "points": [
+        "Journey and scope mapping",
+        "Prototype wireflow and high-fidelity pass",
+        "Review-ready interaction model",
+        "Feedback and refinement cycle",
+        "Execution recommendations"
+      ],
+      "ctaLabel": "Explore use cases",
+      "ctaHref": "/use-cases"
+    },
+    "finalCta": {
+      "heading": "Turn uncertain ideas into confident decisions",
+      "subheading": "Let\u2019s design a prototype your team can act on.",
+      "ctaLabel": "Book a discovery call",
+      "ctaHref": "/contact"
+    },
+    "layoutPreset": "conversion"
+  },
+  {
+    "type": "services",
+    "slug": "clickable-prototype-for-investors",
+    "keyword": "clickable prototype for investors",
+    "meta": {
+      "title": "Clickable Prototype for Investors | Heisen Forge",
+      "description": "Create investor-ready clickable prototypes that communicate product vision clearly."
+    },
+    "hero": {
+      "heading": "Clickable Prototype for Investors",
+      "subheading": "Make your product story tangible in minutes, not slides.",
+      "description": "We help founders present product intent through clear prototype narratives that strengthen investor confidence.",
+      "imageSrc": "/hero/services/hero-car.png",
+      "imageAlt": "Investor prototype",
+      "ctaLabel": "Build investor demo",
+      "ctaHref": "/contact"
+    },
+    "ctaBand": {
+      "heading": "Show, don\u2019t just tell",
+      "subheading": "Investor conversations get easier with a guided product walkthrough.",
+      "ctaLabel": "Start demo sprint",
+      "ctaHref": "/contact"
+    },
+    "capabilities": [
+      {
+        "title": "Narrative Flow",
+        "subtitle": "Investor-friendly product sequencing",
+        "icon": "\ud83d\udcd6"
+      },
+      {
+        "title": "Demo UX",
+        "subtitle": "Clear interactions with compelling context",
+        "icon": "\ud83c\udfac"
+      },
+      {
+        "title": "Pitch Alignment",
+        "subtitle": "Prototype and deck story cohesion",
+        "icon": "\ud83d\udcca"
+      },
+      {
+        "title": "Founder Enablement",
+        "subtitle": "Run-through support before key meetings",
+        "icon": "\ud83d\udde3\ufe0f"
+      }
+    ],
+    "services": {
+      "heading": "Investor prototype package",
+      "points": [
+        "Demo objective and audience framing",
+        "Prototype flow design",
+        "Presentation-ready interaction screens",
+        "Narrative walkthrough notes",
+        "Final polish pass"
+      ],
+      "ctaLabel": "See related services",
+      "ctaHref": "/services"
+    },
+    "finalCta": {
+      "heading": "Need an investor demo that lands fast?",
+      "subheading": "Let\u2019s shape your prototype narrative for high-stakes conversations.",
+      "ctaLabel": "Book a demo strategy call",
+      "ctaHref": "/contact"
+    },
+    "layoutPreset": "conversion"
+  },
+  {
+    "type": "services",
+    "slug": "proof-of-concept-design-partner",
+    "keyword": "proof of concept design partner",
+    "meta": {
+      "title": "Proof of Concept Design Partner | Heisen Forge",
+      "description": "Design PoCs that test feasibility and reduce execution risk early."
+    },
+    "hero": {
+      "heading": "Proof of Concept Design Partner",
+      "subheading": "De-risk product decisions with focused PoC execution.",
+      "description": "We design proof-of-concept experiences that validate feasibility, usability, and technical direction before major investment.",
+      "imageSrc": "/hero/services/hero-car.png",
+      "imageAlt": "Proof of concept design",
+      "ctaLabel": "Start a PoC",
+      "ctaHref": "/contact"
+    },
+    "ctaBand": {
+      "heading": "Validate assumptions early",
+      "subheading": "A strong PoC saves months of wrong execution.",
+      "ctaLabel": "Plan my PoC",
+      "ctaHref": "/contact"
+    },
+    "capabilities": [
+      {
+        "title": "Feasibility Framing",
+        "subtitle": "Define what must be proven first",
+        "icon": "\ud83e\udde0"
+      },
+      {
+        "title": "Risk Prioritization",
+        "subtitle": "Focus on the highest uncertainty areas",
+        "icon": "\u26a0\ufe0f"
+      },
+      {
+        "title": "PoC Experience Design",
+        "subtitle": "Testable and measurable concept flows",
+        "icon": "\ud83e\uddea"
+      },
+      {
+        "title": "Decision Support",
+        "subtitle": "Translate findings into build direction",
+        "icon": "\ud83d\udccc"
+      }
+    ],
+    "services": {
+      "heading": "PoC partner scope",
+      "points": [
+        "PoC objective definition",
+        "Critical flow and system design",
+        "Validation scenario planning",
+        "Iteration cycle",
+        "Go/no-go recommendation brief"
+      ],
+      "ctaLabel": "Explore use-case pages",
+      "ctaHref": "/use-cases"
+    },
+    "finalCta": {
+      "heading": "Want confidence before committing bigger budgets?",
+      "subheading": "Let\u2019s design a PoC around the risks that matter.",
+      "ctaLabel": "Book a PoC discovery call",
+      "ctaHref": "/contact"
+    },
+    "layoutPreset": "conversion"
+  },
+  {
+    "type": "services",
+    "slug": "mvp-prototype-design-and-build",
+    "keyword": "mvp prototype design and build",
+    "meta": {
+      "title": "MVP Prototype Design and Build | Heisen Forge",
+      "description": "Design and prototype MVP experiences for faster product validation and launch."
+    },
+    "hero": {
+      "heading": "MVP Prototype Design and Build",
+      "subheading": "Launch lean, learn quickly, and iterate with purpose.",
+      "description": "We help founders define MVP scope, prototype critical journeys, and set up a build-ready execution path.",
+      "imageSrc": "/hero/services/hero-car.png",
+      "imageAlt": "MVP prototype design",
+      "ctaLabel": "Start MVP planning",
+      "ctaHref": "/contact"
+    },
+    "ctaBand": {
+      "heading": "Ship the smallest version worth testing",
+      "subheading": "Balance speed, usability, and technical feasibility from day one.",
+      "ctaLabel": "Build my MVP",
+      "ctaHref": "/contact"
+    },
+    "capabilities": [
+      {
+        "title": "MVP Scope",
+        "subtitle": "Separate must-have from noise",
+        "icon": "\u2702\ufe0f"
+      },
+      {
+        "title": "Core Journey Design",
+        "subtitle": "Prototype the paths users care about",
+        "icon": "\ud83d\uddfa\ufe0f"
+      },
+      {
+        "title": "Launch Readiness",
+        "subtitle": "Prepare for early user feedback loops",
+        "icon": "\ud83d\udea6"
+      },
+      {
+        "title": "Iteration Plan",
+        "subtitle": "Post-launch improvement roadmap",
+        "icon": "\ud83d\udccd"
+      }
+    ],
+    "services": {
+      "heading": "MVP support includes",
+      "points": [
+        "MVP definition workshop",
+        "Core user flow prototype",
+        "Execution handoff for build",
+        "Launch asset recommendations",
+        "Iteration roadmap"
+      ],
+      "ctaLabel": "See all startup services",
+      "ctaHref": "/services"
+    },
+    "finalCta": {
+      "heading": "Ready to launch your MVP without the usual chaos?",
+      "subheading": "We\u2019ll help you define, prototype, and execute the right first version.",
+      "ctaLabel": "Book MVP kickoff",
+      "ctaHref": "/contact"
+    },
+    "layoutPreset": "conversion"
+  }
+]
