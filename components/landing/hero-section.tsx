@@ -34,6 +34,8 @@ type HeroSectionProps = {
   ctaHref?: string;
 };
 
+const isJpegSource = (src: string) => /\.(jpe?g)(\?.*)?(#.*)?$/i.test(src);
+
 export function HeroSection({
   variant = "home-default",
   layoutType = "auto",
@@ -53,7 +55,7 @@ export function HeroSection({
   const finalImageAlt = imageAlt ?? variantContent.imageAlt;
   const finalCtaLabel = ctaLabel ?? variantContent.ctaLabel;
   const finalCtaHref = ctaHref ?? variantContent.ctaHref;
-  const isJpegImage = finalImageSrc.endsWith(".jpg") || finalImageSrc.endsWith(".jpeg");
+  const isJpegImage = isJpegSource(finalImageSrc);
   const resolvedLayoutType =
     layoutType === "auto" ? (isJpegImage ? "split-grid" : "floating-center") : layoutType;
 

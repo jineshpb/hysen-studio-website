@@ -3,8 +3,10 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import type { SeoPageContent } from "@/lib/seo-pages";
 
+const isJpegSource = (src: string) => /\.(jpe?g)(\?.*)?(#.*)?$/i.test(src);
+
 export function HeroBlock({ hero }: { hero: SeoPageContent["hero"] }) {
-  const isJpegImage = hero.imageSrc.endsWith(".jpg") || hero.imageSrc.endsWith(".jpeg");
+  const isJpegImage = isJpegSource(hero.imageSrc);
 
   return (
     <section className="relative mx-auto max-w-6xl px-6 pb-24 pt-24 sm:px-10 sm:pt-28">
