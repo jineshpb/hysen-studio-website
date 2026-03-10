@@ -5,7 +5,7 @@ import { getSeoPage } from "@/lib/seo-pages";
 import { getRoute, getRoutesByType } from "@/lib/seo-routes";
 
 type Props = {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 };
 
 export function generateStaticParams() {
@@ -13,7 +13,7 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props) {
-  const { slug } = params;
+  const { slug } = await params;
   const content = getSeoPage("use-cases", slug);
   if (content) {
     return {
@@ -31,8 +31,8 @@ export async function generateMetadata({ params }: Props) {
   };
 }
 
-export default function UseCaseDetailPage({ params }: Props) {
-  const { slug } = params;
+export default async function UseCaseDetailPage({ params }: Props) {
+  const { slug } = await params;
 
   const content = getSeoPage("use-cases", slug);
   if (content) return <SeoLandingPage content={content} />;

@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
-const INDUSTRIAL_ITEMS = [
+const DEFAULT_INDUSTRIAL_ITEMS = [
   "Industrial Design",
   "Mechanical Engineering",
   "Rapid Prototyping",
@@ -19,7 +19,11 @@ const INDUSTRIAL_ITEMS = [
 const CURSOR_OFFSET_X = 90;
 const CURSOR_OFFSET_Y = 90;
 
-export function IndustrialSection() {
+type IndustrialSectionProps = {
+  items?: string[];
+};
+
+export function IndustrialSection({ items = DEFAULT_INDUSTRIAL_ITEMS }: IndustrialSectionProps) {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const [thumbStyle, setThumbStyle] = useState<{
     left: number;
@@ -102,7 +106,7 @@ export function IndustrialSection() {
   return (
     <section className="relative mt-20 px-6 py-16 text-center sm:px-12 md:px-20">
       <div className="mx-auto mt-10 max-w-xl space-y-4">
-        {INDUSTRIAL_ITEMS.map((label, index) => (
+        {items.map((label, index) => (
           <button
             key={label}
             type="button"
@@ -138,7 +142,7 @@ export function IndustrialSection() {
             transform: "translate(-50%, -50%)",
           }}
         >
-          <div className="h-full w-full overflow-hidden rounded-xl bg-gradient-to-br from-gray-200 to-gray-400" />
+          <div className="h-full w-full overflow-hidden rounded-xl bg-linear-to-br from-gray-200 to-gray-400" />
         </div>
       )}
     </section>
