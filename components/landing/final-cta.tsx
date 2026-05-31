@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export function FinalCta() {
@@ -15,9 +16,11 @@ export function FinalCta() {
         something real.
       </p>
 
-      <Button variant="cta" size="lg" className="mt-8 h-20 px-14 text-2xl cursor-pointer">
-        Start a Project
-        <ArrowRight className="h-6 w-6" strokeWidth={2.5} />
+      <Button asChild variant="cta" size="lg" className="mt-8 h-20 px-14 text-2xl cursor-pointer">
+        <Link href="/contact">
+          Start a Project
+          <ArrowRight className="h-6 w-6" strokeWidth={2.5} />
+        </Link>
       </Button>
     </section>
   );

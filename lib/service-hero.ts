@@ -26,7 +26,7 @@ export const HERO_VARIANTS: Record<ServiceHeroVariant, HeroContent> = {
     imageSrc: "/hero/home/hero-car.png",
     imageAlt: "Studio showcase hero visual",
     ctaLabel: "Start a Project",
-    ctaHref: "/",
+    ctaHref: "/contact",
   },
   "design-system": {
     heading: "Scale Product Design Faster",
@@ -35,7 +35,7 @@ export const HERO_VARIANTS: Record<ServiceHeroVariant, HeroContent> = {
     imageSrc: "/hero/services/hero-digital-product.png",
     imageAlt: "Digital product interface previews for design system service",
     ctaLabel: "Start a Project",
-    ctaHref: "/",
+    ctaHref: "/contact",
   },
   branding: {
     heading: "Build a Brand That Sticks",
@@ -44,7 +44,7 @@ export const HERO_VARIANTS: Record<ServiceHeroVariant, HeroContent> = {
     imageSrc: "/hero/services/hero-branding.jpg",
     imageAlt: "Branding and visual identity design samples",
     ctaLabel: "Start a Project",
-    ctaHref: "/",
+    ctaHref: "/contact",
   },
   "product-prototyping": {
     heading: "Prototype Before You Commit",
@@ -53,7 +53,7 @@ export const HERO_VARIANTS: Record<ServiceHeroVariant, HeroContent> = {
     imageSrc: "/hero/services/hero-product-prototyping.jpg",
     imageAlt: "Product prototyping flows and wireframes",
     ctaLabel: "Start a Project",
-    ctaHref: "/",
+    ctaHref: "/contact",
   },
   "clickable-prototype": {
     heading: "Demo-Ready Clickable Prototypes",
@@ -62,7 +62,7 @@ export const HERO_VARIANTS: Record<ServiceHeroVariant, HeroContent> = {
     imageSrc: "/hero/services/hero-clickable-prototype.jpg",
     imageAlt: "Clickable prototype presentation screens",
     ctaLabel: "Start a Project",
-    ctaHref: "/",
+    ctaHref: "/contact",
   },
   "product-support": {
     heading: "Extend Your Product Team",
@@ -71,7 +71,7 @@ export const HERO_VARIANTS: Record<ServiceHeroVariant, HeroContent> = {
     imageSrc: "/hero/services/hero-product.png",
     imageAlt: "Product design collaboration visuals",
     ctaLabel: "Start a Project",
-    ctaHref: "/",
+    ctaHref: "/contact",
   },
   packaging: {
     heading: "Packaging That Drives Decisions",
@@ -80,7 +80,7 @@ export const HERO_VARIANTS: Record<ServiceHeroVariant, HeroContent> = {
     imageSrc: "/hero/services/hero-packaging.png",
     imageAlt: "Packaging concepts and branding mockups",
     ctaLabel: "Start a Project",
-    ctaHref: "/",
+    ctaHref: "/contact",
   },
   "launch-collateral": {
     heading: "Launch Collateral That Converts",
@@ -89,7 +89,7 @@ export const HERO_VARIANTS: Record<ServiceHeroVariant, HeroContent> = {
     imageSrc: "/hero/services/hero-branding.jpg",
     imageAlt: "Launch collateral and pitch deck design examples",
     ctaLabel: "Start a Project",
-    ctaHref: "/",
+    ctaHref: "/contact",
   },
 };
 

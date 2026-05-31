@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import { ServiceCard } from "@/components/landing/service-card";
 import { serviceTiles } from "@/lib/landing-data";
 
@@ -12,8 +13,8 @@ export function ServicesSection() {
         From concept to launch-ready product — without juggling multiple vendors.
       </h3>
 
-      <Button variant="cta" className="mt-4 cursor-pointer">
-        Learn more
+      <Button asChild variant="cta" className="mt-4 cursor-pointer">
+        <Link href="/contact">Learn more</Link>
       </Button>
 
       <div className="mt-40 grid grid-cols-2 gap-4">

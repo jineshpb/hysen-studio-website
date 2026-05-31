@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
-import { footerSitemapLinks } from "@/lib/landing-data";
+import { serviceTiles } from "@/lib/landing-data";
 
 export function FooterSection() {
   return (
@@ -16,22 +16,22 @@ export function FooterSection() {
         <div className="grid gap-16 md:grid-cols-[1.3fr_1fr]">
           <div>
             <div className="group relative inline-block">
-              <div className="relative h-[80px] w-[320px] overflow-hidden md:h-[122px] md:w-[480px] lg:h-[100px] lg:w-[640px]">
+              <div className="relative h-[100px] w-[380px] overflow-hidden md:h-[150px] md:w-[620px] lg:h-[170px] lg:w-[980px]">
                 <div className="flex flex-col transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:-translate-y-1/2 motion-reduce:transform-none">
                   <Image
-                    src="/brand/logos/logo-white.svg"
+                    src="/brand/logos/logo-new.svg"
                     alt="Hysen Studio"
-                    width={640}
+                    width={1640}
                     height={200}
-                    className="h-[80px] w-[320px] object-contain md:h-[122px] md:w-[480px] lg:h-[120px] lg:w-[640px]"
+                    className="h-[100px] w-[380px] origin-left scale-[1.45] object-contain md:h-[150px] md:w-[620px] lg:h-[170px] lg:w-[980px]"
                   />
                   <Image
-                    src="/brand/logos/logo-white.svg"
+                    src="/brand/logos/logo-new.svg"
                     alt=""
                     aria-hidden="true"
-                    width={640}
+                    width={1640}
                     height={200}
-                    className="h-[80px] w-[320px] object-contain md:h-[122px] md:w-[480px] lg:h-[120px] lg:w-[640px]"
+                    className="h-[100px] w-[380px] origin-left scale-[1.45] object-contain md:h-[150px] md:w-[620px] lg:h-[170px] lg:w-[980px]"
                   />
                 </div>
               </div>
@@ -52,19 +52,14 @@ export function FooterSection() {
           </div>
 
           <div>
-            <p className="text-xs uppercase tracking-[0.28em] text-white/60">Sitemap</p>
-            <nav className="mt-6 grid grid-cols-2 gap-x-8 gap-y-4 md:grid-cols-3">
-              {footerSitemapLinks.map((link) => (
-                <Link
-                  key={link.label}
-                  href={link.href}
-                  className="group inline-flex w-fit items-center gap-1 text-[15px] text-white/88 transition-colors hover:text-white"
-                >
-                  <span>{link.label}</span>
-                  <ArrowUpRight className="h-3.5 w-3.5 opacity-0 transition-all duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:opacity-100" />
-                </Link>
+            <p className="text-xs uppercase tracking-[0.28em] text-white/60">Services</p>
+            <ul className="mt-6 space-y-4">
+              {serviceTiles.map((service) => (
+                <li key={service.title} className="text-[15px] text-white/88">
+                  {service.title}
+                </li>
               ))}
-            </nav>
+            </ul>
           </div>
         </div>
 

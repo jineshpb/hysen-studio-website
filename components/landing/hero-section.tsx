@@ -133,7 +133,7 @@ export function HeroSection({
         </div>
       )}
 
-      <div className="relative mt-16 sm:mt-20">
+      {/* <div className="relative mt-16 sm:mt-20">
         <p className="text-center text-[12px] text-[#7f878e]">Trusted by</p>
 
         <div className="relative mt-6 flex flex-wrap items-center justify-center gap-8 text-[12px] text-[#7f878e] sm:gap-12">
@@ -141,7 +141,7 @@ export function HeroSection({
             <Image key={brand.name} src={brand.icon} alt={brand.name} width={40} height={40} />
           ))}
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

@@ -3,6 +3,7 @@
 import { useRef, useState, useCallback } from "react";
 import { gsap } from "gsap";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -126,9 +127,11 @@ export function IndustrialSection({ items = DEFAULT_INDUSTRIAL_ITEMS }: Industri
       </div>
 
       <div className="mt-14">
-        <Button variant="cta" className="gap-2">
-          Start a Project
-          <ArrowRight className="h-5 w-5" strokeWidth={2.5} />
+        <Button asChild variant="cta" className="gap-2">
+          <Link href="/contact">
+            Start a Project
+            <ArrowRight className="h-5 w-5" strokeWidth={2.5} />
+          </Link>
         </Button>
       </div>
 
