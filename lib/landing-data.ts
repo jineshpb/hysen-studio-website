@@ -14,33 +14,47 @@ export type TestimonialData = {
 
 export const serviceTiles: ServiceCardData[] = [
   {
-    title: "Prototyping & proof of concepts",
-    description: "Turn sketches into functional prototypes you can test and refine.",
+    title: "Industrial Design and Product Development",
+    description: "End-to-end concept, form, and product development support.",
     variant: "orange",
     iconVariant: "pill",
     icon: "none",
   },
   {
-    title: "Marketing & Launch Collaterals",
-    description: "Product visuals, renders, videos, and materials for launch readiness.",
+    title: "Functional Prototyping",
+    description: "Build working prototypes to validate usability and engineering direction.",
     variant: "navy",
     iconVariant: "circle",
     icon: "megaphone",
   },
   {
-    title: "Packaging & Physical Design",
-    description: "Retail-ready packaging and industrial design for production.",
+    title: "Product Strategy and Pitch Deck Consultation",
+    description: "Sharpen product direction and investor storytelling with strategic design input.",
     variant: "light",
     iconVariant: "circle",
     icon: "briefcase",
   },
   {
-    title: "Manufacturing Preparation",
-    description: "CAD optimization, BOMs, and production-ready files.",
+    title: "Visualization and CGI",
+    description: "High-quality renders and visual narratives for product communication.",
     variant: "silver",
     iconVariant: "none",
     icon: "none",
-    watermarkText: "HEISENHYSE",
+    watermarkText: "VISUAL",
+  },
+  {
+    title: "Limited Volume Production",
+    description: "Support for small-batch production and controlled manufacturing runs.",
+    variant: "orange",
+    iconVariant: "circle",
+    icon: "briefcase",
+  },
+  {
+    title: "Premium Prototypes and Display Models",
+    description: "Craft exhibition-ready prototypes and presentation-grade display models.",
+    variant: "navy",
+    iconVariant: "pill",
+    icon: "none",
   },
 ];
 

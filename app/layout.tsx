@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist_Mono, Inter } from "next/font/google";
+import { Toaster } from "sonner";
 import "./globals.css";
 
 const inter = Inter({
@@ -29,6 +30,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} ${geistMono.variable} antialiased`}>
         {children}
+        <Toaster richColors position="top-right" closeButton />
       </body>
     </html>
   );

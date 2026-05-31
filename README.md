@@ -34,3 +34,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Enquiry Form Email Setup
+
+The contact page posts to `POST /api/enquiry` and sends enquiry emails using Resend.
+
+1. Copy `.env.example` to `.env.local`
+2. Set:
+   - `RESEND_API_KEY`
+   - `ENQUIRY_TO_EMAIL` (defaults to `admin@hysenforge.com`)
+   - `ENQUIRY_FROM_EMAIL` (must be a verified sender/domain in Resend for production)
+3. Start the app with `npm run dev`

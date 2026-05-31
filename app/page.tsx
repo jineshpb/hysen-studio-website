@@ -17,9 +17,9 @@ export default function Home() {
       <div className="relative z-10 mx-auto w-full max-w-6xl">
         <HeroSection />
         <ServicesSection />
-        <IndustrialSection />
+        {/* <IndustrialSection />
         <ProjectsSection />
-        <TestimonialsSection />
+        <TestimonialsSection /> */}
         <FinalCta />
       </div>
       <FooterSection />
